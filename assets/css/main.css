@@ -1,0 +1,281 @@
+html {
+	background: url(../img/trees_bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	background:none;
+}
+#page,
+#header {
+	padding: 0;
+	margin: 0;
+}
+#header {
+	position: relative;
+}
+.logo-wrapper {
+	width: 530px;
+	height: 0;
+	display: block;
+	margin: 0 auto;
+}
+#logo {
+	background: url(../img/logo.png);
+	width: 530px;
+	height: 420px;
+	display: block;
+	position: absolute;
+	top: -35px;
+}
+#menu-wrapper {
+	background: url(../img/wood_menu.png) repeat-x center center;
+	width: 100%;
+	height: 70px;
+	display: block
+}
+#stamp-wrapper {
+	width: 320px;
+	height: 0;
+	display: block;
+	margin: 0 auto;
+}
+#stamp {
+	background: url(../img/stamp.png);
+	width: 320px;
+	height: 320px;
+	display: block;
+	position: relative;
+	z-index: -1;
+	top: -20px;
+}
+
+#content-wrapper {
+	margin:250px 0 100px 0;
+	min-height: 400px;
+}
+
+.scroll {
+	background: url(../img/.png) no-repeat center center;
+	width: 504px;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	z-index:5;
+}
+
+#top-scroll {
+	background: url(../img/top-scroll.png) no-repeat center center;
+	width: 497px;
+	height: 160px;
+}
+
+.wood-title {
+	background: url(../img/wood-title.png) no-repeat center center;
+	width: 504px;
+	height: 63px;
+	text-align:center;
+	line-height:63px;
+	position:relative;
+	bottom:35px;
+	z-index:1;
+	color:#221508;
+	font-size:26pt;
+	text-transform:uppercase;
+	font-family: DS Greece;
+}
+
+@font-face {
+  font-family: DS Greece;
+  src: url(../fonts/ds_greece.ttf);
+}
+
+#middle-scroll {
+	background: url(../img/middle-scroll.png) repeat-y top center;
+	width: 504px;
+	position:relative;
+	top:-120px;
+	z-index:-1;
+	padding-bottom:50px;
+}
+
+.versace-ornament {
+	background: url(../img/versace-ornament.png) no-repeat center center;
+	width: 504px;
+	height: 18px;
+	position:absolute;
+	z-index:-1;
+	top:75px;
+}
+
+.people-ornament {
+	background: url(../img/people-ornament.png) no-repeat center center;
+	max-width: 485px;
+	height: 442px;
+	font-family: DS Greece Regular;
+	position:absolute;
+	top:-80px;
+}
+
+.content {
+	font-size:10pt;
+	padding-left:40px;
+	color:#3d2f1c;
+	padding-top:50px;
+}
+
+h1 {
+	text-transform:uppercase;
+	font-size:10pt;
+	font-weight:bold;
+	margin-bottom:30px;
+}
+
+p {
+	max-width:420px;
+}
+
+a {
+	margin-left:370px;
+	color:#3d2f1c;
+	float:left;
+	text-indent:10px;
+	margin-top:100px;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#3d2f1c;
+}
+
+a:before {
+	content: "";
+    display: block;
+    background: url(../img/right-arrow.png) no-repeat;
+    width: 21px;
+    height: 14px;
+	float:left;
+	margin-top:3px;
+}
+
+.left-column {
+	width:200px;
+	float:left;
+	font-size:15pt;
+}
+
+.right-column {
+	width:230px;
+	float:left;
+	position:relative;
+	top:-30px;
+}
+
+.menu {
+	background: url(../img/menu.png) no-repeat center center;
+	width: 171px;
+	height: 174px;
+}
+
+.clock:before {
+	content: "";
+    display: block;
+    background: url(../img/clock-icon.png) no-repeat;
+    width: 17px;
+    height: 24px;
+	float:left;
+}
+
+.meal:before {
+	content: "";
+    display: block;
+    background: url(../img/meal-icon.png) no-repeat;
+    width: 17px;
+    height: 24px;
+	float:left;
+}
+
+.helm:before {
+	content: "";
+    display: block;
+    background: url(../img/helm-icon.png) no-repeat;
+    width: 17px;
+    height: 24px;
+	float:left;
+}
+
+.clock,
+.meal,
+.helm {
+	text-indent:15px;
+	padding:5px 0 0 10px;
+}
+
+#bottom-scroll {
+	background: url(../img/bottom-scroll.png) no-repeat center center;
+	width: 504px;
+	height: 148px;
+	margin-top:-250px;
+	margin-bottom:290px;
+}
+
+#footer-wrapper {
+	background: url(../img/wood_footer.jpg) repeat-x center center;
+	width: 100%;
+	height: 150px;
+	display: block;
+}
+#footer {
+	background: url(../img/elia.png) no-repeat center center;
+	width: 100%;
+	height: 556px;
+	display: block;
+	position:relative;
+	top:-440px;
+}
+
+.button {
+	background: url(../img/view-more.png);
+	background-repeat:no-repeat;
+	background-color:transparent;
+	width:125px;
+	height:48px;
+	text-transform: uppercase;
+	border:none;
+	display:block;
+	margin:0 auto 10px;
+	position:relative;
+	bottom:-490px;
+	left:160px;
+	font-family: DS Greece;
+	color:#3d2f1c;
+	font-size:18px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+} 
